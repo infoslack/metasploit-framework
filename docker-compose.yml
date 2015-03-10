@@ -1,0 +1,7 @@
+# docker-compose up
+# or
+# docker-compose up -d msf
+msf:
+  build: .
+  ports:
+    - 4444:4444
